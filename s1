@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export x=5
+
+#./s2
+
+./s2 $x

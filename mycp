@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#with-cp-$@
+
+cp "$@" || { echo "Error---> Copy failed." }
+
+echo "Files copied successfully."
