@@ -1,4 +1,5 @@
 #!/bin/bash
+shopt -s extglob 
 read -p "enter a character: " char
 
 case $char in 
