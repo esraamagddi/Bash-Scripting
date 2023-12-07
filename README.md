@@ -109,12 +109,12 @@ Write a script called `mybackup` using the `for` utility to create a backup of o
 ## 5. mymail Script
 
 Write a script called `mymail` using the `for` utility to send an email to all users in the system. Note: write the mail body in a file called `mtemplate`.
-![UNFOUND](lap1/awk_8.png)
+![UNFOUND](lap3/lab3_q5.png)
 
 
 ## 6. chkmail Script
 
 Write a script called `chkmail` to check for new emails every 10 seconds. Note: emails are saved in `/var/mail/username`.
-![UNFOUND](lap1/awk_8.png)
+![UNFOUND](lap3/lap3_q6.png)
 
 
