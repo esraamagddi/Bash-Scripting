@@ -53,16 +53,41 @@
 #### c. –d: if an argument is a directory, list only its name
 #### d. –i: print inode number
 #### e. –R: recursively list subdirectories
-## Bonus: enhance the above script to support the following Synopsis:
-myls -option1 –option2\
-myls –option2 –option1\
-myls –option1option2\
-myls –option2option1
-### 7. Create a script called mytest where:
-#### a. It check the type of the given argument (file/directory)
-#### b. It check the permissions of the given argument (read/write/execute)
-### 8. Create a script called myinfo where:
-#### a. It asks the user about his/her logname.
-#### b. It print full info about files and directories in his/her home directory
-#### c. Copy his/her files and directories as much as you can in /tmp directory.
-#### d. Gets his current processes status.
+# Lab 3
+# Shell Scripting Examples
+
+## 1. mycase Script
+
+Write a script called `mycase` using the `case` utility to check the type of character entered by a user:
+
+- Upper Case.
+- Lower Case.
+- Number.
+- Nothing.
+
+## 2. Enhanced mycase Script
+
+Enhance the previous script to check the type of string entered by a user:
+
+- Upper Cases.
+- Lower Cases.
+- Numbers.
+- Mix.
+- Nothing.
+
+## 3. mychmod Script
+
+Write a script called `mychmod` using the `for` utility to give execute permission to all files and directories in your home directory.
+
+## 4. mybackup Script
+
+Write a script called `mybackup` using the `for` utility to create a backup of only files in your home directory.
+
+## 5. mymail Script
+
+Write a script called `mymail` using the `for` utility to send an email to all users in the system. Note: write the mail body in a file called `mtemplate`.
+
+## 6. chkmail Script
+
+Write a script called `chkmail` to check for new emails every 10 seconds. Note: emails are saved in `/var/mail/username`.
+
